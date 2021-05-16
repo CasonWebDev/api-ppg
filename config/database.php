@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'default' => 'mysql',
+    'default' => 'pgsql',
 
     /*
     |--------------------------------------------------------------------------
@@ -68,11 +68,11 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'host' => 'localhost',
-            'port' => 5432,
-            'database' => 'database',
-            'username' => 'root',
-            'password' => '',
+            'host' => 'app-98f596ea-4a9a-4426-9a67-7b781ea9e716-do-user-8402232-0.b.db.ondigitalocean.com',
+            'port' => 25060,
+            'database' => 'ppg',
+            'username' => 'ppg',
+            'password' => 'ybn3eryj593tjq01',
             'charset' => 'utf8',
             'prefix' => '',
             'schema' => 'public',
