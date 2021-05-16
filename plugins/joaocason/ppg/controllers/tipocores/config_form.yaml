@@ -1,0 +1,10 @@
+name: TipoCores
+form: $/joaocason/ppg/models/tipocores/fields.yaml
+modelClass: JoaoCason\Ppg\Models\TipoCores
+defaultRedirect: joaocason/ppg/tipocores
+create:
+    redirect: 'joaocason/ppg/tipocores/update/:id'
+    redirectClose: joaocason/ppg/tipocores
+update:
+    redirect: joaocason/ppg/tipocores
+    redirectClose: joaocason/ppg/tipocores

@@ -1,0 +1,11 @@
+columns:
+    titulo:
+        label: Marca
+        type: text
+        searchable: true
+        sortable: true
+    categoria:
+        label: Categoria
+        type: text
+        searchable: true
+        sortable: true

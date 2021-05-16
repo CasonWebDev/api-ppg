@@ -1,0 +1,30 @@
+columns:
+    cor:
+        label: Cor
+        type: text
+        searchable: true
+        sortable: true
+    modelo:
+        label: Modelo
+        type: text
+        searchable: true
+        sortable: true
+    tipo_cor:
+        label: 'Tipo de Cor'
+        type: text
+        searchable: true
+        sortable: true
+    marca:
+        label: Marca
+        type: text
+        searchable: true
+        sortable: true
+    categoria:
+        label: Categoria
+        type: text
+        searchable: true
+        sortable: true
+    textura:
+        label: Imagem
+        type: partial
+        path: ~/plugins/joaocason/ppg/models/cores/_textura_column.htm

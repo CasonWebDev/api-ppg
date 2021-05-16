@@ -1,0 +1,25 @@
+fields:
+    titulo:
+        label: Nome
+        span: auto
+        required: 1
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        preset:
+            field: titulo
+            type: slug
+        type: text
+    icone:
+        label: 'Icone da Categoria'
+        mode: image
+        fileTypes: svg
+        mimeTypes: svg
+        useCaption: 0
+        thumbOptions:
+            mode: auto
+            extension: auto
+        span: auto
+        type: fileupload
+        comment: 'Arquivo em SVG é obrigatório'

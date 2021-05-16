@@ -1,0 +1,10 @@
+name: Marcas
+form: $/joaocason/ppg/models/marcas/fields.yaml
+modelClass: JoaoCason\Ppg\Models\Marcas
+defaultRedirect: joaocason/ppg/marcas
+create:
+    redirect: 'joaocason/ppg/marcas/update/:id'
+    redirectClose: joaocason/ppg/marcas
+update:
+    redirect: joaocason/ppg/marcas
+    redirectClose: joaocason/ppg/marcas

@@ -1,0 +1,14 @@
+fields:
+    titulo:
+        label: Titulo
+        span: auto
+        required: 1
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        required: 1
+        preset:
+            field: titulo
+            type: slug
+        type: text

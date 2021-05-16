@@ -1,0 +1,10 @@
+name: Categorias
+form: $/joaocason/ppg/models/categorias/fields.yaml
+modelClass: JoaoCason\Ppg\Models\Categorias
+defaultRedirect: joaocason/ppg/categorias
+create:
+    redirect: 'joaocason/ppg/categorias/update/:id'
+    redirectClose: joaocason/ppg/categorias
+update:
+    redirect: joaocason/ppg/categorias
+    redirectClose: joaocason/ppg/categorias

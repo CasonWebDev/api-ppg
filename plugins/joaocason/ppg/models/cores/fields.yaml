@@ -1,0 +1,50 @@
+fields:
+    cor:
+        label: Cor
+        span: auto
+        required: 1
+        type: text
+    modelo:
+        label: Modelo
+        span: auto
+        required: 1
+        type: text
+    marcas_id:
+        label: Marca
+        emptyOption: 'Selecione uma marca'
+        showSearch: true
+        span: auto
+        required: 1
+        type: dropdown
+    tipo_cores_id:
+        label: 'Tipo de Cor'
+        showSearch: true
+        span: auto
+        emptyOption: 'Selecione uma opção'
+        required: 1
+        dependsOn:
+            - marcas_id
+        type: dropdown
+    categorias_id:
+        label: Categoria
+        showSearch: true
+        span: auto
+        emptyOption: 'Selecione uma opção'
+        required: 1
+        dependsOn:
+            - marcas_id
+        type: dropdown
+    textura:
+        label: Imagem
+        mode: image
+        imageWidth: '500'
+        imageHeight: '500'
+        fileTypes: 'jpg, png, PNG, JPG, JPEG, jpeg'
+        mimeTypes: 'jpg, png, PNG, JPG, JPEG, jpeg'
+        useCaption: 0
+        required: 1
+        thumbOptions:
+            mode: crop
+            extension: jpg
+        span: auto
+        type: fileupload

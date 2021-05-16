@@ -1,0 +1,44 @@
+plugin:
+    name: 'joaocason.ppg::lang.plugin.name'
+    description: 'joaocason.ppg::lang.plugin.description'
+    author: 'João Cason'
+    icon: oc-icon-tint
+    homepage: ''
+permissions:
+    PPGCategorias:
+        tab: categorias_ppg
+        label: Categorias
+    PPGMarcas:
+        tab: marcas_ppg
+        label: Marcas
+    PPGTipoCores:
+        tab: tipo_cores_ppg
+        label: 'Tipo Cores'
+    PPGCores:
+        tab: cores_ppg
+        label: Cores
+navigation:
+    categorias:
+        label: Categorias
+        url: joaocason/ppg/categorias
+        icon: icon-sitemap
+        permissions:
+            - PPGCategorias
+    marcas:
+        label: Marcas
+        url: joaocason/ppg/marcas
+        icon: icon-certificate
+        permissions:
+            - PPGMarcas
+    tipo-cores:
+        label: 'Categoria de Cores'
+        url: joaocason/ppg/tipocores
+        icon: icon-paint-brush
+        permissions:
+            - PPGTipoCores
+    cores:
+        label: Cores
+        url: joaocason/ppg/cores
+        icon: icon-tint
+        permissions:
+            - PPGCores

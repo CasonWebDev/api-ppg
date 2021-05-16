@@ -1,0 +1,10 @@
+name: Cores
+form: $/joaocason/ppg/models/cores/fields.yaml
+modelClass: JoaoCason\Ppg\Models\Cores
+defaultRedirect: joaocason/ppg/cores
+create:
+    redirect: 'joaocason/ppg/cores/update/:id'
+    redirectClose: joaocason/ppg/cores
+update:
+    redirect: joaocason/ppg/cores
+    redirectClose: joaocason/ppg/cores
