@@ -21,7 +21,7 @@ class Cores extends Controller
         parent::__construct();
     }
 
-    public function index(Request $request)
+    public function obterCores(Request $request)
     {
         $cores = CoresModel::obterCoresPorRequest($request);
 

@@ -20,7 +20,7 @@ class Marcas extends Controller
         parent::__construct();
     }
 
-    public function index(int $id_categoria)
+    public function obterMarcas(int $id_categoria)
     {
         $marcas = MarcasModel::obterMarcasPorCategoria($id_categoria);
 

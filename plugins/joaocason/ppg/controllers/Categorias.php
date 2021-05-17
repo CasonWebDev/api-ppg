@@ -20,7 +20,7 @@ class Categorias extends Controller
         parent::__construct();
     }
 
-    public function index()
+    public function obterCategorias()
     {
         $categorias = CategoriasModel::with('icone')->get();
 
