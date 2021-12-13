@@ -17,6 +17,9 @@ permissions:
     PPGCores:
         tab: cores_ppg
         label: Cores
+    PPGBuscas:
+        tab: buscas_ppg
+        label: Buscas
 navigation:
     categorias:
         label: Categorias
@@ -42,3 +45,9 @@ navigation:
         icon: icon-tint
         permissions:
             - PPGCores
+    buscas:
+        label: Buscas
+        url: joaocason/ppg/buscas
+        icon: icon-search
+        permissions:
+            - PPGBuscas

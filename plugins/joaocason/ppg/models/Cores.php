@@ -99,4 +99,20 @@ class Cores extends Model
                 ];
             });
     }
+
+    public static function obterCoresPorTermo(string $termo)
+    {
+        return Cores::with('textura')
+            ->where('cor', 'like', "%$termo%")
+            ->orWhere('modelo', 'like', "%$termo%")
+            ->get()
+            ->map(function($cor) {
+                return [
+                    'id' => $cor->id,
+                    'cor' => $cor->cor,
+                    'modelo' => $cor->modelo,
+                    'textura' => $cor->textura->path
+                ];
+            });
+    }
 }

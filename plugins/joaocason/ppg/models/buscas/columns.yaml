@@ -1,0 +1,9 @@
+columns:
+    termo:
+        label: Termo
+        type: text
+        searchable: true
+        sortable: true
+    buscas:
+        label: 'Quantidade Buscas'
+        type: number
